@@ -10,6 +10,9 @@ namespace ProjEuler
     {
         static void Main(string[] args)
         {
+            Problems problem = new Problems();
+            problem.P4LargestPalindrome();
+            Console.Read();
         }
     }
 }
